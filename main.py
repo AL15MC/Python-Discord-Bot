@@ -29,7 +29,7 @@ async def on_message(message):
     if message.author == bot.user:
         return
 
-    if "shit" in message.content.lower():
+    if "shit,fuck,niga,nigga,niger,nigger,ass,dumbass,dick,hell" in message.content.lower():
         await message.delete()
         await message.channel.send(f"{message.author.mention} - dont use that word!")
 
